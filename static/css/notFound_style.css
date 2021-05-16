@@ -1,0 +1,200 @@
+.error .clip .shadow
+    {
+        height: 180px;  /*Contrall*/
+    }
+    .error .clip:nth-of-type(2) .shadow
+    {
+        width: 130px;   /*Contrall play with javascript*/
+    }
+    .error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow
+    {
+        width: 250px; /*Contrall*/
+    }
+    .error .digit
+    {
+        width: 150px;   /*Contrall*/
+        height: 150px;  /*Contrall*/
+        line-height: 150px; /*Contrall*/
+        font-size: 120px;
+        font-weight: bold;
+    }
+    .error h2   /*Contrall*/
+    {
+        font-size: 32px;
+    }
+    .error .msg /*Contrall*/
+    {
+        top: -190px;
+        left: 30%;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 32px;
+    }
+    .error span.triangle    /*Contrall*/
+    {
+        top: 70%;
+        right: 0%;
+        border-left: 20px solid #535353;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+    }
+
+
+    .error .container-error-404
+    {
+      margin-top: 2%;
+        position: relative;
+        height: 250px;
+        padding-top: 40px;
+    }
+    .error .container-error-404 .clip
+    {
+        display: inline-block;
+        transform: skew(-45deg);
+    }
+    .error .clip .shadow
+    {
+
+        overflow: hidden;
+    }
+    .error .clip:nth-of-type(2) .shadow
+    {
+        overflow: hidden;
+        position: relative;
+        box-shadow: inset 20px 0px 20px -15px rgba(150, 150, 150,0.8), 20px 0px 20px -15px rgba(150, 150, 150,0.8);
+    }
+
+
+
+
+
+    .error h2
+    {
+        color: white;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    .error .msg
+    {
+        position: relative;
+        z-index: 9999;
+        display: block;
+        background: #535353;
+        color: #A2A2A2;
+        border-radius: 50%;
+        font-style: italic;
+    }
+    .error .triangle
+    {
+        position: absolute;
+        z-index: 999;
+        transform: rotate(45deg);
+        content: "";
+        width: 0;
+        height: 0;
+    }
+
+/* Error Page */
+@media(max-width: 767px)
+{
+    /* Error Page */
+            .error .clip .shadow
+            {
+                height: 100px;  /*Contrall*/
+            }
+            .error .clip:nth-of-type(2) .shadow
+            {
+                width: 80px;   /*Contrall play with javascript*/
+            }
+            .error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow
+            {
+                width: 100px; /*Contrall*/
+            }
+            .error .digit
+            {
+                width: 80px;   /*Contrall*/
+                height: 80px;  /*Contrall*/
+                line-height: 80px; /*Contrall*/
+                font-size: 52px;
+            }
+            .error h2   /*Contrall*/
+            {
+                font-size: 24px;
+            }
+            .error .msg /*Contrall*/
+            {
+                top: -110px;
+                left: 15%;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 18px;
+            }
+            .error span.triangle    /*Contrall*/
+            {
+                top: 70%;
+                right: -3%;
+                border-left: 10px solid #535353;
+                border-top: 8px solid transparent;
+                border-bottom: 8px solid transparent;
+            }
+.error .container-error-404
+  {
+    height: 150px;
+  }
+        /* Error Page */
+}
+
+    ol{
+        text-align: center;
+        margin: 1em;
+        color: white;
+        font-weight: 100;
+        line-height: 2.3em;
+        list-style:none;
+    }
+    li{
+        font-size: 20px;
+        font-weight: 100;
+        list-style:none;
+    }
+
+
+    .button {
+      font-weight: 300;
+      color: #fff;
+      font-size: 1.2em;
+      text-decoration: none;
+      border: 1px solid #efefef;
+      padding: 1em;
+      background: #007aff;
+      border-radius: 3px;
+      float: left;
+      margin: 6em 0 0 -155px;
+      left: 50%;
+      position: relative;
+      cursor:pointer;
+    }
+
+    .button:hover {
+      background-color: #fff;
+      color: #007aff;
+        box-shadow: 0px 0px 5px -2px grey;
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../../static/img/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.35s linear;
+}
+.footer {
+	color: #e4e0e0;
+	text-align:right;
+	position: fixed;
+ 	bottom: 20px;
+ 	right: 20px;
+ 	width: 100%;
+}

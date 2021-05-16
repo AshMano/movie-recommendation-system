@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="{{ url_for('static', filename= 'css/notFound_style.css') }}">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<style>
+</style>
+</head>
+<body>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Anton|Passion+One|PT+Sans+Caption' rel='stylesheet' type='text/css'>
+            <div class="error">
+                <div class="container-floud">
+                    <div class="col-xs-12 ground-color text-center">
+                        <div class="container-error-404">
+
+                            <div class="msg">OH!<span class="triangle"></span></div>
+                        </div>
+                        <h2 class="h1">Sorry! Page not found. Possible reason(s):</h2>
+                        <ol>
+                            <li>Misspelled input.</li>
+                            <li>The movie name does not exist in the database.</li>
+                        </ol>
+                    </div>
+                    <a class="button" onClick="goBack()"><i class="fas fa-home"></i> Go Back to Home Page &amp; Try Again.</a>
+                </div>
+            </div>
+</body>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+<div class="footer" style="">Made by Ashanth</div>
+</body>
+</html>

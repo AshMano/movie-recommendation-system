@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/show_style.css') }}">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <title>Movie Recommender System</title>
+    </head>
+    <body>
+        <div class="show">
+            <div class="heading">
+                <h3>Thank You For Using Movie Recommender System</h3>
+                <h3>Recommended Movies For You</h3>
+                <p><strong>{{movies}}</strong></p>
+            </div>
+        </div>
+    </div>
+                    <a class="button" onClick="goBack()"><i class="fas fa-home"></i> Go Back to Home Page &amp; Try Again.</a>
+                </div>
+            </div>
+</body>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+    <div class="footer" style="">Made by Ashanth</div>
+    </body>
+</html>
